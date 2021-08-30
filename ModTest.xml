@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Excercise6Suite">
+  <test name="Exercise6TestClass">
+  
+  	<parameter name="user" value="anupama.kolar@gmail.com"/>
+  	<parameter name="pass" value="testing1"/>
+  
+  	<groups>
+  		<run>
+  		<exclude name = "B"/>
+  		</run>
+  	</groups>
+     <classes>
+      <class name="exercises.Mod6tng"/>
+      <class name="exercises.Mod6tng2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
